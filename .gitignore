@@ -1,0 +1,10 @@
+i2c/*.o
+lib/
+i2cPi.i
+i2cPi_wrap.c
+i2cPi_wrap.o
+i2cPi.so
+i2cPi.php
+i2cPi.ini
+i2cPi.h
+php_i2cPi.h
