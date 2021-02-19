@@ -6,5 +6,4 @@ i2cPi_wrap.o
 i2cPi.so
 i2cPi.php
 i2cPi.ini
-i2cPi.h
 php_i2cPi.h
