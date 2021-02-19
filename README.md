@@ -9,8 +9,8 @@ WARNING: This is an in-development library, it will not be bug free and fully fe
     questions or words of support.
 
 Testing:
-    Build with gcc (Raspbian 8.3.0-6+rpi1) 8.3.0
-    Built against PHP 7.3 (can be changed by setting the PHP version in the top of the build.sh script)
+ * Builds with gcc (Raspbian 8.3.0-6+rpi1) 8.3.0
+ * Built against PHP 7.3 (can be changed by setting the PHP version in the top of the build.sh script)
 
 Prerequisites:
     You must have git, git-core, i2c-tools, libi2c0, swig, php-dev, php-cli and php-common installed
@@ -34,7 +34,7 @@ Look for the i2cPi module in the list and that there are no errors.
     
 The build script does the following things:
     
-	1) Builds and Installs the i2cPi library
-	2) Creates an interface file for SWIG using the i2cPi header files
-	3) Uses SWIG to create the PHP module source code and include files
-	4) Builds the PHP module source and then installs the shared module library (using sudo) for php-cli and apache2 module
+1) Builds and Installs the i2cPi library
+2) Creates an interface file for SWIG using the i2cPi header files
+3) Uses SWIG to create the PHP module source code and include files
+4) Builds the PHP module source and then installs the shared module library (using sudo) for php-cli and apache2 module
